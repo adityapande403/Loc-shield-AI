@@ -1,0 +1,34 @@
+{
+  "sample_counts": {
+    "train": 1350,
+    "val": 340,
+    "test": 340,
+    "total": 2030
+  },
+  "leakage_audit": {
+    "train_val_text_overlap": 0,
+    "train_test_text_overlap": 0,
+    "val_test_text_overlap": 0,
+    "template_level_isolation_enforced": true
+  },
+  "entity_distributions": {
+    "train": {
+      "PERSON": 1200,
+      "ADDRESS": 382,
+      "LOCATION": 495,
+      "ORGANIZATION": 487
+    },
+    "val": {
+      "PERSON": 300,
+      "ADDRESS": 120,
+      "LOCATION": 99,
+      "ORGANIZATION": 154
+    },
+    "test": {
+      "PERSON": 300,
+      "ADDRESS": 131,
+      "ORGANIZATION": 149,
+      "LOCATION": 110
+    }
+  }
+}

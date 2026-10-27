@@ -1,0 +1,30 @@
+{
+  "model_sizes_mb": {
+    "pytorch_safetensors": 514.01,
+    "onnx_fp32": 514.13,
+    "onnx_int8": 128.91,
+    "compression_ratio": 3.99
+  },
+  "parity": {
+    "max_fp32_abs_diff": 6.67572021484375e-06,
+    "fp32_token_disagreement_rate": 0.0,
+    "int8_token_disagreement_rate": 0.011235955056179775,
+    "parity_verified": true
+  },
+  "latency_cpu_ms": {
+    "fp32": {
+      "p50_ms": 6.2,
+      "p95_ms": 8.08,
+      "p99_ms": 8.76,
+      "mean_ms": 6.52,
+      "throughput_req_per_sec": 153.5
+    },
+    "int8": {
+      "p50_ms": 2.27,
+      "p95_ms": 2.75,
+      "p99_ms": 2.94,
+      "mean_ms": 2.33,
+      "throughput_req_per_sec": 428.3
+    }
+  }
+}

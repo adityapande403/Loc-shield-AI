@@ -1,0 +1,19 @@
+{
+  "name": "localshield-client",
+  "version": "0.1.0",
+  "description": "Node.js client for LocalShield AI privacy-first local PII redaction engine",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test_node.js"
+  },
+  "keywords": [
+    "privacy",
+    "pii",
+    "redaction",
+    "security",
+    "llm-guard"
+  ],
+  "author": "LocalShield AI Team",
+  "license": "Apache-2.0"
+}
